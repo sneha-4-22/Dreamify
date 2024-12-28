@@ -23,20 +23,21 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 | ------------------------------------------------------------------------- | ------------------------------------------------------------- | 
 | **Visualize Your Dreams:**                                                | **Inspiration for Growth:**                                   | 
 | Here paste the image addresses from Pinterest that align with your goal   | Add images that inspire you and represent your aspirations.   |
-<!--
-### Gratitude Board
 
-| ![gratitude_board](img/gratitude_board.png)     | ![thankful_moments](img/thankful_moments.png)         |
-| ----------------------------------------------- | ---------------------------------------------------- | 
-| **Daily Gratitude Practice:**                   | **Thankful for Moments:**                           | 
-| Keep track of things you are grateful for       | Reflect on small victories and thankful moments       |
--->
+
 ### Dream Journal
 
 | ![journal](img/journal.png)                      | ![ai_journal](img/ai_journal.png)                    |
 | -----------------------------------------------  | ---------------------------------------------------- | 
 | **Document Your Journey:**                       | **Reflect on Your Growth:**                          | 
 | Write your dreams, goals, and experiences        | Review your progress and achievements                |
+
+### Manifestation Goals
+
+| ![goals](img/goals.png)                         | ![edit](img/editgoals.png)                           |
+| ----------------------------------------------- | ---------------------------------------------------- | 
+| **Goals Overview**                              | **Edit Your Goals**                                  | 
+| Easily track your goals and stay focused on your aspirations. | Click the "+ New Goal" icon, enter your affirmation title, and select a category to customize your goals. |
 
 
 
