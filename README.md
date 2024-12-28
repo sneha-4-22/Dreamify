@@ -40,38 +40,6 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 | **Track Your Daily Progress**                   | **Monitor Your Daily Habits**                        | 
 | Stay on top of your goals by tracking your daily achievements. | Record your daily habits to maintain consistency and progress. |
 
-## 🚀 Getting Started  
-
-### Open Using Daytona  
-
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <DREAMIFY_REPO_URL> 
-   ```  
-
-3. **Build the Environment**:  
-   Daytona automatically sets up all dependencies using devcontainers.  
-
-4. **Start the Application**:  
-
-   - For the backend (Python/Flask):  
-     ```bash  
-     flask run  
-     ```  
-   - For the frontend (React):  
-     ```bash  
-     npm start  
-     ```  
-
-5. **Access the App**:  
-   Open your browser and navigate to:  
-   ```
-   http://localhost:5000
-   ```  
-
----
 
 ## ✨ Features  
 
@@ -127,6 +95,38 @@ Make sure you have the following installed before using this project:
 └── README.md                   # Project documentation  
 
 ```  
+
+---
+## 🚀 Getting Started  
+
+### Open Using Daytona  
+
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+
+2. **Create the Workspace**:  
+   ```bash  
+   daytona create <DREAMIFY_REPO_URL> 
+   ```  
+
+3. **Build the Environment**:  
+   Daytona automatically sets up all dependencies using devcontainers.  
+
+4. **Start the Application**:  
+
+   - For the backend (Python/Flask):  
+     ```bash  
+     flask run  
+     ```  
+   - For the frontend (React):  
+     ```bash  
+     npm start  
+     ```  
+
+5. **Access the App**:  
+   Open your browser and navigate to:  
+   ```
+   http://localhost:5000
+   ```  
 
 ---
 
