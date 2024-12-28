@@ -102,11 +102,11 @@ Contributions are welcome! Please submit a pull request or open an issue for any
 ## 📜 License  
 
 This project is licensed under the MIT License.  
-```
+
 
 ### Updates Based on Your Input:
 1. **Features Section**: Included specific features like the Manifestation Dashboard, Dream Analysis, Mood Tracking, Gamification, and Social Integration.
 2. **Description**: Highlighted the project’s goal of empowering users with dream interpretations and manifestation insights.
 3. **Getting Started**: Adjusted instructions to keep it aligned with Daytona integration while ensuring the project’s use case is clear.
 
-Let me know if this now aligns with your vision for Dreamify!
+
