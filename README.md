@@ -19,10 +19,10 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 -->
 ### Vision Board
 
-| ![vision_board](img/vision_board.png)           | ![visionpins](img/visionpins.png)               |
-| ----------------------------------------------- | ----------------------------------------------- | 
-| **Visualize Your Dreams:**                      | **Inspiration for Growth:**                     | 
-| Create a visual representation of your goals    | See images that inspire your manifestation      |
+| ![vision_board](img/vision_board.png)           | ![visionpins](img/visionpins.png)                                    |
+| ----------------------------------------------- | -------------------------------------------------------------------- | 
+| **Visualize Your Dreams:**                      | **Inspiration for Growth:**                                          | 
+| Create a visual representation of your goals    |  Here add paste the img addresses from pinterest that align your goal|
 <!--
 ### Gratitude Board
 
