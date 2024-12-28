@@ -80,15 +80,16 @@ Make sure you have the following installed before using this project:
 
 ```plaintext  
 ├── src/  
-│   ├── app.py          # Flask application  
-│   ├── components/
-|          ├── app.js
-|          ├── ManifestationDashboard.js
-|          ├── card.js 
-│   └── requirements.txt  
+│   ├── app.js                  # Flask application  
+│   ├── components/             # React components directory  
+│   │   ├── app.py             # Main React app file  
+│   │   ├── ManifestationDashboard.js  # Component for the Manifestation Dashboard  
+│   │   ├── Card.js             # Reusable card component  
+│   └── requirements.txt        # Python dependencies  
 ├── .devcontainer/  
-│   └── devcontainer.json  # Daytona configuration  
-└── README.md  
+│   └── devcontainer.json       # Daytona configuration  
+└── README.md                   # Project documentation  
+
 ```  
 
 ---
