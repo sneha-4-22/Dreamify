@@ -9,14 +9,7 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 ## Screenshots
 
 ## Dreamify - Manifestation Board Features
-<!--
-### Vision Board
 
-| ![vision_board](img/vision_board.png)            | ![inspiration](img/inspiration.png)              |
-| ----------------------------------------------- | ----------------------------------------------- | 
-| **Visualize Your Dreams:**                      | **Inspiration for Growth:**                     | 
-| Create a visual representation of your goals    | See images that inspire your manifestation      |
--->
 ### Vision Board
 
 | ![vision_board](img/vision_board.png)                                     | ![visionpins](img/visionpins.png)                             |
@@ -39,7 +32,13 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 | **Goals Overview**                              | **Edit Your Goals**                                  | 
 | Easily track your goals and stay focused on your aspirations. | Click the "+ New Goal" icon, enter your affirmation title, and select a category to customize your goals. |
 
+### Daily Progress & Habits
 
+
+| ![progress](img/progress.png)             | ![habits](img/habits.png)                      |
+| ----------------------------------------------- | ---------------------------------------------------- | 
+| **Track Your Daily Progress**                   | **Monitor Your Daily Habits**                        | 
+| Stay on top of your goals by tracking your daily achievements. | Record your daily habits to maintain consistency and progress. |
 
 ## 🚀 Getting Started  
 
