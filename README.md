@@ -42,29 +42,32 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 
 ## ✨ Features  
 
-Dreamify provides a wide array of innovative features to enhance user experience:
 
-- **Dream Analysis**:  
-  AI-powered analysis of dreams, offering meaningful interpretations and emotional insights.
+### 1. **AI Journal Insights**
+   - **Mood Selection**: A set of mood emojis (✨, 🌟, 💫, 🦋, 🌈, 💖, 🙏, 💭) to express the user's current mood.
+   - **AI Insights Generation**: After writing a journal entry, users can get AI-generated insights by clicking the *Get AI Insights* button. This is powered by a backend API.
+   - **Journal Entry Saving**: Users can save their journal entry, along with AI insights and mood, which will be displayed in a list of past entries.
+   - **Error Handling**: If no journal entry is provided or AI insights generation fails, an error message is displayed.
+   - **Visualization of Past Entries**: A list of previously saved journal entries with their AI insights, moods, and dates.
 
-- **Manifestation Dashboard**:  
-  A beautiful, interactive dashboard where users can set manifestation goals, track progress, and receive motivational insights.
 
-- **Daily Dream Journal**:  
-  Helps users log and analyze their dreams over time, creating a personal database of insights.
+### 2. **Goals Tracker**
+   - Set and track manifestation goals with progress bars.
+   - Add new goals and affirmations, categorized for easy organization.
 
-- **Mood Tracking & Emotional Analysis**:  
-  Tracks users' emotional states based on dreams and provides recommendations for mental well-being.
+### 3. **Habit Tracker**
+   - Keep track of daily habits like affirmations or gratitude.
+   - Celebrate streaks and progress with fun visuals.
 
-- **Social Integration**:  
-  Users can share dream insights and manifestation achievements with friends or a community.
+### 4. **Vision Board**
+   - Upload your dreams with images to create your personal vision board.
 
-- **Gamification Elements**:  
-  Earn points and unlock achievements as you analyze dreams and achieve manifestation goals.
+### 5. **Charming UI**
+   - Clean, modern, and responsive design with soft pastel gradients.
+   - Smooth animations and cozy interactions.
 
-- **Standardized Development Environment**:  
-  Configured with Daytona to simplify development, ensuring consistency across setups.
-
+### 6. **Backend Integration**
+   - AI-driven insights and goal tracking backed by a smooth backend.
 ---
 
 ## 🛠 Prerequisites  
