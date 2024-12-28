@@ -1,0 +1,32 @@
+{
+    "name": "Dreamify Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "18"
+      }
+    },
+    "postCreateCommand": "pip install -r src/requirements.txt && npm install --prefix src/components",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "ms-vscode.vscode-typescript-next"
+        ]
+      }
+    },
+    "forwardPorts": [5000, 3000],
+    "portsAttributes": {
+      "5000": {
+        "label": "Flask API"
+      },
+      "3000": {
+        "label": "React Frontend"
+      }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace"
+  }
+  

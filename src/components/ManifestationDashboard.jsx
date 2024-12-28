@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './Card';
-import { Target, CheckSquare, Image, BookOpen, Moon, Sun, Star, Coffee, Medal } from 'lucide-react';
-
+import { Target, CheckSquare, Image, BookOpen, Moon, Sun, Star, Coffee, Medal , Sparkles, Loader2} from 'lucide-react';
+import JournalSection from './JournalSection';
 const ManifestationDashboard = () => {
   const [goals, setGoals] = useState([
     { id: 1, title: 'Financial Freedom', affirmation: 'I attract abundance effortlessly', progress: 65, category: 'wealth' },
@@ -14,17 +14,16 @@ const ManifestationDashboard = () => {
     { id: 3, name: 'Visualization', completed: false, streak: 1, time: 'morning' },
   ]);
   
-const [editingHabitId, setEditingHabitId] = useState(null);
-const [editingHabitData, setEditingHabitData] = useState({ name: '', time: 'morning' });
-  const [journalEntries, setJournalEntries] = useState([]);
-  const [newJournalEntry, setNewJournalEntry] = useState('');
+
+  
   const [visionBoardImages, setVisionBoardImages] = useState([]);
+  
   const [newImageURL, setNewImageURL] = useState('');
-  const [mood, setMood] = useState('😊');
+
   const [showNewGoalForm, setShowNewGoalForm] = useState(false);
   const [newGoal, setNewGoal] = useState({ title: '', affirmation: '', category: 'personal' });
 
-  const moods = ['😊', '🥰', '😌', '✨', '💫', '🌟', '💭', '🙏'];
+  
   const categories = ['personal', 'wealth', 'health', 'relationships', 'career', 'lifestyle'];
 
   const addGoal = () => {
@@ -50,20 +49,7 @@ const [editingHabitData, setEditingHabitData] = useState({ name: '', time: 'morn
     };
     setHabits([...habits, newHabit]);
   };
-
-  const addJournalEntry = () => {
-    if (newJournalEntry.trim()) {
-      const entry = {
-        id: Date.now(),
-        content: newJournalEntry,
-        mood,
-        date: new Date().toISOString(),
-      };
-      setJournalEntries([entry, ...journalEntries]);
-      setNewJournalEntry('');
-    }
-  };
-
+  
   const getCategoryIcon = (category) => {
     switch (category) {
       case 'wealth': return '💰';
@@ -223,67 +209,9 @@ const [editingHabitData, setEditingHabitData] = useState({ name: '', time: 'morn
               </div>
             </CardContent>
           </Card>
-
-          {/* Journal Section */}
-          <Card className="lg:col-span-2 border-none shadow-lg bg-white/80 backdrop-blur">
-            <CardHeader>
-              <CardTitle>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <BookOpen className="h-5 w-5 text-pink-600" />
-                    <span>Manifestation Journal</span>
-                  </div>
-                  <div className="flex gap-2">
-                    {moods.map((m) => (
-                      <button
-                        key={m}
-                        onClick={() => setMood(m)}
-                        className={`text-xl hover:scale-110 transition-transform ${
-                          mood === m ? 'scale-110' : ''
-                        }`}
-                      >
-                        {m}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div className="flex gap-2">
-                  <textarea
-                    className="flex-1 p-3 h-20 rounded-lg border border-pink-200 resize-none focus:ring-2 focus:ring-pink-500 bg-white/50"
-                    placeholder="Write your manifestation journal entry here..."
-                    value={newJournalEntry}
-                    onChange={(e) => setNewJournalEntry(e.target.value)}
-                  />
-                  <button
-                    onClick={addJournalEntry}
-                    className="px-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-lg hover:opacity-90 transition-opacity"
-                  >
-                    Save
-                  </button>
-                </div>
-                <div className="space-y-3 max-h-64 overflow-y-auto">
-                  {journalEntries.map((entry) => (
-                    <div
-                      key={entry.id}
-                      className="p-3 bg-gradient-to-r from-pink-50 to-purple-50 rounded-lg"
-                    >
-                      <div className="flex justify-between items-start mb-2">
-                        <span className="text-2xl">{entry.mood}</span>
-                        <span className="text-xs text-pink-400">
-                          {new Date(entry.date).toLocaleDateString()}
-                        </span>
-                      </div>
-                      <p className="text-pink-700">{entry.content}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+           {/* Journal Section */}
+          <JournalSection />
+         
 
           {/* Vision Board */}
           <Card className="border-none shadow-lg bg-white/80 backdrop-blur">
@@ -378,7 +306,7 @@ const [editingHabitData, setEditingHabitData] = useState({ name: '', time: 'morn
               </div>
               <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-4 rounded-lg text-center">
                 <div className="text-2xl text-pink-600 font-bold">
-                  {journalEntries.length}
+                  {/* {journalEntries.length} */}
                 </div>
                 <div className="text-sm text-pink-500">Journal Entries</div>
               </div>
