@@ -6,6 +6,39 @@ Dreamify is an AI-powered application that provides personalized dream interpret
 This repository demonstrates how to integrate **Daytona** into Dreamify, offering a standardized, reproducible development environment.
 
 ---
+## Screenshots
+
+## Dreamify - Manifestation Board Features
+<!--
+### Vision Board
+
+| ![vision_board](img/vision_board.png)            | ![inspiration](img/inspiration.png)              |
+| ----------------------------------------------- | ----------------------------------------------- | 
+| **Visualize Your Dreams:**                      | **Inspiration for Growth:**                     | 
+| Create a visual representation of your goals    | See images that inspire your manifestation      |
+-->
+### Vision Board
+
+| ![vision_board](img/vision_board.png)           | ![visionpins](img/visionpins.png)               |
+| ----------------------------------------------- | ----------------------------------------------- | 
+| **Visualize Your Dreams:**                      | **Inspiration for Growth:**                     | 
+| Create a visual representation of your goals    | See images that inspire your manifestation      |
+<!--
+### Gratitude Board
+
+| ![gratitude_board](img/gratitude_board.png)     | ![thankful_moments](img/thankful_moments.png)         |
+| ----------------------------------------------- | ---------------------------------------------------- | 
+| **Daily Gratitude Practice:**                   | **Thankful for Moments:**                           | 
+| Keep track of things you are grateful for       | Reflect on small victories and thankful moments       |
+-->
+### Dream Journal
+
+| ![journal](img/journal.png)                      | ![ai_journal](img/ai_journal.png)                    |
+| -----------------------------------------------  | ---------------------------------------------------- | 
+| **Document Your Journey:**                       | **Reflect on Your Growth:**                          | 
+| Write your dreams, goals, and experiences        | Review your progress and achievements                |
+
+
 
 ## 🚀 Getting Started  
 
