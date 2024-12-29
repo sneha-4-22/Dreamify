@@ -63,12 +63,7 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 ### 4. **Vision Board**
    - Upload your dreams with images to create your personal vision board.
 
-### 5. **Charming UI**
-   - Clean, modern, and responsive design with soft pastel gradients.
-   - Smooth animations and cozy interactions.
 
-### 6. **Backend Integration**
-   - AI-driven insights and goal tracking backed by a smooth backend.
 ---
 
 ## 🛠 Prerequisites  
