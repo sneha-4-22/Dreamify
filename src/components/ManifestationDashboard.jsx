@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from './Card';
-import { Target, CheckSquare, Image, BookOpen, Moon, Sun, Star, Coffee, Medal , Sparkles, Loader2} from 'lucide-react';
+import { Target, CheckSquare, Image, Moon, Sun, Star, Coffee, Medal } from 'lucide-react';
 import JournalSection from './JournalSection';
 const ManifestationDashboard = () => {
   const [goals, setGoals] = useState([

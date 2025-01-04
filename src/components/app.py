@@ -1,10 +1,9 @@
 import os
 from flask import Flask, request, jsonify
 from openai import OpenAI
-import mindsdb_sdk
+
 from dotenv import load_dotenv
 from flask_cors import CORS
-import datetime
 
 load_dotenv()
 
@@ -14,7 +13,6 @@ CORS(app)
 MINDSDB_HOST = 'https://cloud.mindsdb.com'
 MINDSDB_API_KEY = os.environ.get('MINDSDB_API_KEY')
 
-# Initialize OpenAI client with MindsDB endpoint
 client = OpenAI(
     api_key=MINDSDB_API_KEY,
     base_url="https://llm.mdb.ai/"
