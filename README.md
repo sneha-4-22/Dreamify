@@ -70,7 +70,7 @@ This repository demonstrates how to integrate **Daytona** into Dreamify, offerin
 
 Make sure you have the following installed before using this project:  
 
-- [Docker](https://www.docker.com/)  
+- [Render]()  
 - [Daytona](https://www.daytona.io/docs/installation/installation/)  
 
 ---
@@ -110,7 +110,7 @@ Make sure you have the following installed before using this project:
 
    - For the backend (Python/Flask):  
      ```bash  
-     flask run  
+     python app.py  
      ```  
    - For the frontend (React):  
      ```bash  
@@ -121,7 +121,10 @@ Make sure you have the following installed before using this project:
    Open your browser and navigate to:  
    ```
    http://localhost:5000
-   ```  
+   ```
+   ```
+   or just visit the link in my discription i have deployed the backend too using render it will work with ai insights also
+   ```
 
 ---
 
