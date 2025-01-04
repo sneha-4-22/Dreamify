@@ -6,6 +6,10 @@ Dreamify is an AI-powered application that provides personalized dream interpret
 This repository demonstrates how to integrate **Daytona** into Dreamify, offering a standardized, reproducible development environment.
 
 ---
+## Try the app
+
+[Dreamify/Manifestation dashboard](https://dreamify-two.vercel.app/)
+
 ## Screenshots
 
 ## Dreamify - Manifestation Board Features
