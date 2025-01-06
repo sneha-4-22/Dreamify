@@ -1,9 +1,9 @@
 
 # Dreamify  (Python/Flask with React)
 
-Dreamify is an AI-powered application that provides personalized dream interpretations and manifestation insights. It combines NLP-driven dream analysis with a beautifully designed manifestation dashboard, making it an intuitive and inspiring platform for users.
+The Manifestation Dashboard is a dynamic personal development tool that combines goal tracking, daily habits, and journaling. It helps users manifest their dreams into reality by providing an organized space to track goals and document their journey through an AI-enhanced journaling system
 
-This repository demonstrates how to integrate **Daytona** into Dreamify, offering a standardized, reproducible development environment.
+
 
 ---
 ## Try the app
